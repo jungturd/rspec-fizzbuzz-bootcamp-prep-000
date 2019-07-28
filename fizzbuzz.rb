@@ -3,13 +3,10 @@
 def fizzbuzz (int)
   if int % 3 == 0
     "Fizz"
-  end
-if int % 5 == 0
+else int % 5 == 0
     "Buzz"
-  end
-if int % 15 == 0
+else % 15 == 0
     "FizzBuzz"
-  end
 end
 
 puts fizzbuzz(3)
