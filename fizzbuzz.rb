@@ -4,13 +4,4 @@ def fizzbuzz (int)
   if int % 3 == 0
   "Fizz"
   end
-  elsif num % 5 == 0
-    puts "Buzz"
-  end
-  if num % 3 && % 5 == 0
-    puts "FizzBuzz"
 end
-
-fizzbuzz(3)
-fizzbuzz(5)
-fizzbuzz(15)
