@@ -7,9 +7,10 @@ def fizzbuzz (num)
   elsif num % 5 == 0
     puts "Buzz"
   end
-  if 
+  if num % 3 && % 5 == 0
+    puts "FizzBuzz"
 end
 
 fizzbuzz(3)
 fizzbuzz(5)
-
+fizzbuzz(15)
