@@ -9,6 +9,7 @@ else int % 5 == 0
     "Buzz"
 else % 15 == 0
     "FizzBuzz"
+  end
 end
 
 puts fizzbuzz(3)
