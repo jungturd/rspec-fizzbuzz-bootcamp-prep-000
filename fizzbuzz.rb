@@ -10,6 +10,8 @@ if int % 5 == 0
 if int % 15 == 0
     "FizzBuzz"
   end
+  end
+  end
 end
 
 puts fizzbuzz(3)
